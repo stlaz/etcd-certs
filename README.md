@@ -9,7 +9,8 @@ $ docker network create -d bridge etcd-network --subnet=172.19.0.0/16
 ## running the scenarios
 
 ```bash
-$ eval "$(./etcdcerts --network-cidr=172.19.0.0/16 --scenario 1)" ./run-etcd.sh
+$ eval "export $(./etcdcerts --network-cidr=172.19.0.0/16 --scenario 1)"
+$ ./run-etcd.sh
 ```
 
 ## using a client to query the cluster
