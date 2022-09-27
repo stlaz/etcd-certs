@@ -5,8 +5,8 @@ function etcd_args() {
     SERVING_PATH="${1}/${2}-serving"
     
     echo "--initial-advertise-peer-urls=https://${2}:2380\
- --cert-file=${SERVING_PATH}/server.crt\
- --key-file=${SERVING_PATH}/server.key\
+ --cert-file=${SERVING_PATH}/${SERVING_FNAME:-server}.crt\
+ --key-file=${SERVING_PATH}/${SERVING_FNAME:-server}.key\
  --trusted-ca-file=${1}/ca.crt\
  --client-cert-auth=true\
  --peer-cert-file=${PEER_PATH}/${PEER_FNAME}.crt\
@@ -14,7 +14,7 @@ function etcd_args() {
  --peer-trusted-ca-file=${1}/ca.crt\
  --peer-client-cert-auth=true\
  --advertise-client-urls=https://${2}:2379\
- --listen-client-urls=https://0.0.0.0:2379,unixs://${2}:0\
+ --listen-client-urls=https://0.0.0.0:2379\
  --listen-peer-urls=https://0.0.0.0:2380\
  --metrics=extensive\
  --listen-metrics-urls=https://0.0.0.0:9978\
@@ -31,5 +31,4 @@ docker run --net etcd-network --ip $PEER_IP2 -v /tmp:/tmp  --name etcd3 -d quay.
 # --logger=zap \
 # --log-level=info \
 # --experimental-initial-corrupt-check=true\
-
-# remove the below because resolve works differently ATM
+# from --listen-client-urls: ,unixs://${2}:0

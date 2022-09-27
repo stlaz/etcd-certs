@@ -7,6 +7,9 @@ require (
 	k8s.io/apiserver v0.25.2
 )
 
+// for the version that contains the combined certs generation
+replace github.com/openshift/microshift => github.com/stlaz/microshift v0.0.0-20220927101038-bdd95484d0a8
+
 require (
 	github.com/go-logr/logr v1.2.3 // indirect
 	github.com/openshift/library-go v0.0.0-20220615161831-8b2df431789c // indirect

@@ -12,11 +12,11 @@ github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd h1:TRLaZ9cD/w
 github.com/modern-go/reflect2 v1.0.2 h1:xBagoLtFs94CBntxluKeaWgTMpvLxC4ur3nMaC9Gz0M=
 github.com/openshift/library-go v0.0.0-20220615161831-8b2df431789c h1:Z0uVzdNHQfbCpP498tAE53sh84ILdOj4H1LyJv465c8=
 github.com/openshift/library-go v0.0.0-20220615161831-8b2df431789c/go.mod h1:AMZwYwSdbvALDl3QobEzcJ2IeDO7DYLsr42izKzh524=
-github.com/openshift/microshift v0.0.0-20220926090322-0dfd0bbc62ea h1:usMa7UrVEfEcGmGN9EOAjRIqEKJlW+Uweb0w11k25GI=
-github.com/openshift/microshift v0.0.0-20220926090322-0dfd0bbc62ea/go.mod h1:miK7vGB9V0d6sTKGsWVBNf51DY3xC0PmOOK1DKzBkek=
 github.com/pmezard/go-difflib v1.0.0 h1:4DBwDE0NGyQoBHbLQYPwSUPoCMWR5BEzIk/f1lZbAQM=
 github.com/pmezard/go-difflib v1.0.0/go.mod h1:iKH77koFhYxTK1pcRnkKkqfTogsbg7gZNVY4sRDYZ/4=
 github.com/spf13/afero v1.2.2/go.mod h1:9ZxEEn6pIJ8Rxe320qSDBk6AsU0r9pR7Q4OcevTdifk=
+github.com/stlaz/microshift v0.0.0-20220927101038-bdd95484d0a8 h1:IM51gQPO8Rgun9FVU4R26IH3dGxkZJCb9cWQ/i3EIBs=
+github.com/stlaz/microshift v0.0.0-20220927101038-bdd95484d0a8/go.mod h1:y0EpdKbQJpvXtzxtsOpeg6+9BEKtfwx0nSa57Hf3vZI=
 github.com/stretchr/objx v0.1.0/go.mod h1:HFkY916IF+rwdDfMAkV7OtwuqBVzrE8GR6GFx+wExME=
 github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UVUgZn+9EI=
 github.com/stretchr/testify v1.7.0 h1:nwc3DEeHmmLAfoZucVR881uASk0Mfjw8xYJ99tb5CcY=
